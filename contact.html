@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Kestrel Energy</title>
+    <meta name="description" content="Kestrel Energy: exploration, drilling, pipelines and energy consulting.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Sora:wght@600;700&display=swap"
+        rel="stylesheet">
+    <script>document.documentElement.classList.add('js')</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="topbar">
+        <div class="wrap"><span>Port Harcourt, Nigeria</span><span>info@kestrelenergy.example &nbsp;|&nbsp; +234 800 000
+                0000</span></div>
+    </div>
+    <header class="site">
+        <div class="wrap nav">
+            <a class="brand" href="index.html"><svg viewBox="0 0 40 40" aria-hidden="true">
+                    <rect width="40" height="40" rx="10" fill="#0a2540" />
+                    <path d="M8 28 L20 10 L32 28 L20 22 Z" fill="#00a3a1" />
+                    <circle cx="20" cy="30" r="3" fill="#f5a524" />
+                </svg>Kestrel Energy</a>
+            <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"
+                aria-controls="menu">&#9776;</button>
+            <ul class="menu" id="menu">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="cta" href="contact.html" aria-current="page">Contact us</a></li>
+            </ul>
+        </div>
+    </header>
+    <main id="main">
+        <div class="page-hero">
+            <div class="wrap">
+                <h1>Contact us</h1>
+                <p>Send us your enquiry and we will reply within two working days.</p>
+            </div>
+        </div>
+        <section>
+            <div class="wrap split">
+                <form id="contact-form" novalidate>
+                    <div class="field"><label for="name">Full name</label><input id="name" type="text"
+                            autocomplete="name"><span class="err" id="name-err"></span></div>
+                    <div class="field"><label for="email">Work email</label><input id="email" type="email"
+                            autocomplete="email"><span class="err" id="email-err"></span></div>
+                    <div class="field"><label for="topic">Topic</label><select id="topic">
+                            <option value="">Select a topic</option>
+                            <option>Exploration and production</option>
+                            <option>Drilling and well engineering</option>
+                            <option>Pipelines and midstream</option>
+                            <option>Energy consulting</option>
+                            <option>Careers</option>
+                        </select><span class="err" id="topic-err"></span></div>
+                    <div class="field"><label for="message">Message</label><textarea id="message"></textarea><span
+                            class="err" id="message-err"></span></div>
+                    <button class="btn primary" type="submit">Send message</button>
+                    <p id="status" role="status" aria-live="polite"></p>
+                </form>
+                <div class="info">
+                    <div><b>Head office</b>12 Marina Road, Port Harcourt, Nigeria</div>
+                    <div><b>Email</b>info@kestrelenergy.example</div>
+                    <div><b>Phone</b>+234 800 000 0000</div>
+                    <div><b>Office hours</b>Monday to Friday, 8:00 to 17:00</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site">
+        <div class="wrap">
+            <div class="fgrid">
+                <div>
+                    <h3>Kestrel Energy</h3>
+                    <p>Reliable energy, delivered responsibly. Sample company site for portfolio use.</p>
+                </div>
+                <div>
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Exploration</a></li>
+                        <li><a href="services.html">Drilling</a></li>
+                        <li><a href="services.html">Pipelines</a></li>
+                        <li><a href="services.html">Consulting</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Port Harcourt, Nigeria</li>
+                        <li>info@kestrelenergy.example</li>
+                        <li>+234 800 000 0000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy"><span>&copy; <span id="year"></span> Kestrel Energy. All rights reserved.</span><span>Demo
+                    website by DEV-ELONNA</span></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
